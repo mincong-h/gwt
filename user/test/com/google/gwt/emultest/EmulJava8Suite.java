@@ -20,6 +20,7 @@ import com.google.gwt.emultest.java8.lang.FloatTest;
 import com.google.gwt.emultest.java8.lang.MathTest;
 import com.google.gwt.emultest.java8.lang.StringTest;
 import com.google.gwt.emultest.java8.math.BigIntegerConvertTest;
+import com.google.gwt.emultest.java8.time.LocalDateTimeTest;
 import com.google.gwt.emultest.java8.util.ArrayListTest;
 import com.google.gwt.emultest.java8.util.ArraysTest;
 import com.google.gwt.emultest.java8.util.CollectionsTest;
@@ -65,6 +66,9 @@ import org.junit.runners.Suite.SuiteClasses;
 
   //-- java.math
   BigIntegerConvertTest.class,
+
+  //-- java.time
+  LocalDateTimeTest.class,
 
   //-- java.util
   ArraysTest.class,
